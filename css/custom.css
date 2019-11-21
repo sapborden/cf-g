@@ -1,3 +1,14 @@
 #make-closer {
   margin-top: -50px;
 }
+
+#btn-colour {
+  background-color: #c9b6d4;
+  color: black;
+  border-color: #c9b6d4;
+}
+
+#cards-colour {
+  border-color: #c9b6d4;
+  border-width: thin;
+}
