@@ -2,13 +2,8 @@
   margin-top: -50px;
 }
 
-#btn-colour {
-  background-color: #c9b6d4;
-  color: black;
-  border-color: #c9b6d4;
-}
-
 #cards-colour {
-  border-color: #c9b6d4;
+  border-color: gray;
   border-width: thin;
+  background-color: #9DAB86;
 }
