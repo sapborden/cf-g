@@ -16,20 +16,20 @@
   <body>
 
 
-        <div class="container-fluid" style="background-color:#e08f62">
-          <nav class="navbar px-0 navbar-expand-lg navbar-light">  <!--navbar whole width of the screen-->
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav"> <!--nav bar just behind the text -->
-                <a href="index.html" class="pl-md-0 p-3 text-dark">HOME</a>
-                <a href="about.html" class="p-3 text-decoration-none text-dark">ABOUT</a>
-                <a href="books.html" class="p-3 text-decoration-none text-dark">BOOKS</a>
-                <a href="articles.html" class="p-3 text-decoration-none text-dark">ARTICLES</a>
-              </div>
+    <div class="container-fluid">
+      <nav class="navbar px-0 navbar-expand-lg navbar-light fixed-top" style="background-color:#e08f62; z-index:3"> <!--navbar whole width of the screen-->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"> <!--nav bar just behind the text -->
+              <a href="index.html" class="pl-md-0 p-3 text-dark">HOME</a>
+              <a href="about.html" class="pl-md-3 p-3 text-dark">ABOUT</a>
+              <a href="books.html" class="pl-md-3 p-3 text-dark">BOOKS</a>
+              <a href="articles.html" class="pl-md-3 p-3 text-dark">ARTICLES</a>
             </div>
-          </nav>
         </div>
+      </nav>
+    </div>
 
-
+  <div id="header" class="container-fluid" style="position:fixed;z-index:1;padding-top:50px;">
 
         <div class="jumbotron jumbotraon-fluid" style="background-color:#e08f62">
           <div class="container">
@@ -39,8 +39,10 @@
 
           </div>
         </div>
+</div>
 
-
+<div id="content" style="padding-top: 240px;position:sticky;z-index:2">
+  <div class="container-fuid" style="background-color:#b4d1b8">
      <div class="container">
 
         <div class="row">
@@ -72,9 +74,9 @@
           </div>
 
         </div>
-
+      </div>
   </div>
-
+</div>
 
   </body>
 </html>

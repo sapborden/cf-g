@@ -16,20 +16,20 @@
   <body>
 
 <!--This is the navbar-->
-        <div class="container-fluid" style="background-color:#e08f62">
-          <nav class="navbar px-0 navbar-expand-lg navbar-light">
-            <div class="container-fluid" style="background-color:#e08f62"> <!--navbar whole width of the screen-->
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav"> <!--nav bar just behind the text -->
-                  <a href="index.html" class="pl-md-0 p-3 text-dark">HOME</a>
-                  <a href="about.html" class="pl-md-3 p-3 text-dark">ABOUT</a>
-                  <a href="books.html" class="pl-md-3 p-3 text-dark">BOOKS</a>
-                  <a href="articles.html" class="pl-md-3 p-3 text-dark">ARTICLES</a>
-                </div>
-              </div>
+    <div class="container-fluid">
+      <nav class="navbar px-0 navbar-expand-lg navbar-light fixed-top" style="background-color:#e08f62; z-index:3"> <!--navbar whole width of the screen-->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"> <!--nav bar just behind the text -->
+              <a href="index.html" class="pl-md-0 p-3 text-dark">HOME</a>
+              <a href="about.html" class="pl-md-3 p-3 text-dark">ABOUT</a>
+              <a href="books.html" class="pl-md-3 p-3 text-dark">BOOKS</a>
+              <a href="articles.html" class="pl-md-3 p-3 text-dark">ARTICLES</a>
             </div>
-          </nav>
         </div>
+      </nav>
+    </div>
+
+<div id="header" class="container-fluid" style="position:fixed;z-index:1;padding-top:50px;">
 
 
 <!--This is the header-->
@@ -39,8 +39,17 @@
           </div>
         </div>
 
+</div>
+
+<div id="content" style="padding-top: 240px;position:sticky;z-index:2">
+
 <!--These are the cards-->
+  <div class="container-fuid" style="background-color:#b4d1b8">
     <div class="container">
+
+    <div class="lead">
+      <br><p>These are recent articles that have particularly caught my eye! Take a look below.</p>
+    </div>
 
 <!--first row-->
       <div class="row">
@@ -102,9 +111,25 @@
             </div>
           </div>
 
+          <div class="col-6 col-md-4" id="make-closer">
+            <div class="container py-5">
+              <div class="card" id="cards-colour" style="width: 18rem;">
+                <img src="images/brexit.jpeg" class="card-img-top" alt="Wrath">
+                <div class="card-body">
+                  <h5 class="card-title">The Breakup</h5>
+                  <p class="card-text">This is a "dispatch from Brexit-crazed London" as published on the interactive section of the New York Times. The kind of read that makes you want to laugh and cry at the same time.</p>
+                  <a href="https://www.nytimes.com/interactive/2019/10/23/magazine/brexit-illustrated.html" target="_blank" class="btn btn-primary" id="btn-colour">Click here to read.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </div>
 
     </div>
+
+</div>
+</div>
 
   </body>
 </html>

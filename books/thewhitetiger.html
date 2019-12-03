@@ -14,26 +14,23 @@
 
 
   </head>
-  <body>
 
+  <body style="background-color:#b4d1b8">
 
-        <div class="container-fluid" style="background-color:#e08f62">
-          <nav class="navbar px-0 navbar-expand-lg navbar-light">  <!--navbar whole width of the screen-->
-  <!--          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav"> <!--nav bar just behind the text -->
-                <a href="../index.html" class="pl-md-0 p-3 text-dark">HOME</a>
-                <a href="../about.html" class="p-3 text-decoration-none text-dark">ABOUT</a>
-                <a href="../books.html" class="p-3 text-decoration-none text-dark">BOOKS</a>
-                <a href="../articles.html" class="p-3 text-decoration-none text-dark">ARTICLES</a>
-              </div>
+    <div class="container-fluid">
+      <nav class="navbar px-0 navbar-expand-lg navbar-light fixed-top" style="background-color:#e08f62; z-index:3"> <!--navbar whole width of the screen-->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"> <!--nav bar just behind the text -->
+              <a href="../index.html" class="pl-md-0 p-3 text-dark">HOME</a>
+              <a href="../about.html" class="pl-md-3 p-3 text-dark">ABOUT</a>
+              <a href="../books.html" class="pl-md-3 p-3 text-dark">BOOKS</a>
+              <a href="../articles.html" class="pl-md-3 p-3 text-dark">ARTICLES</a>
             </div>
-          </nav>
         </div>
+      </nav>
+    </div>
 
-
+<div id="header" class="container-fluid" style="position:fixed;z-index:1;padding-top:50px;">
 
         <div class="jumbotron jumbotraon-fluid" style="background-color:#e08f62">
           <div class="container">
@@ -44,9 +41,12 @@
           </div>
         </div>
 
+</div>
 
+<div id="content" style="padding-top: 240px;position:sticky;z-index:2">
+  <div class="container-fuid" style="background-color:#b4d1b8">
         <div class="container" style="font-family:'Quattrocento Sans', sans-serif;">
-          <ul>
+          <br><ul>
             <li>“She had this habit of rubbing her forearms hard when she felt happy, as if they were a piece of ginger she was grating to release grins from.” p15</li>
             <li>“Her death was so grand that I knew, all at once, that her life must have been miserable. My family was guilty about something.” p1</li>
             <li>“Do we loathe our masters behind a facade of love - or do we love them behind a facade of loathing?” P187</li>
@@ -54,7 +54,8 @@
             <li>“And he explained the true history of poetry, which is a kind of secret, a magic known only to wise men.” P254</li>
           </ul>
         </div>
-
+</div>
+</div>
 
   </body>
 </html>
